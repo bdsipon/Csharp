@@ -17,7 +17,7 @@ namespace StaticDemo
     {
         static void Main(string[] args)
         {
-            //TODO
+            Console.WriteLine("Company Name" + CompanyInfo.GetCompanyName());
         }
     }
 

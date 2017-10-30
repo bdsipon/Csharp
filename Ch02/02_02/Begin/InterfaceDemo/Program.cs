@@ -10,18 +10,16 @@ namespace InterfaceDemo
     {
         static void Main(string[] args)
         {
-            //TODO
+            Student s = new Student();
+         
+            s.PrintName();
         }
     }
 
-    interface Person
-    {
-        void PrintName();
-    }
 
-    class Student : Person
+    class Student 
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = "Sipon Hossain";
         public void PrintName()
         {
             Console.WriteLine($"Student name is {Name}.");

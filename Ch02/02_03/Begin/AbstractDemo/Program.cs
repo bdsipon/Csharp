@@ -22,7 +22,9 @@ namespace AbstractDemo
     {
         static void Main(string[] args)
         {
-            //TODO
+            Student s = new Student();
+            s.Name = "Sipon Hossain";
+            s.PrintName();
         }
     }
 
